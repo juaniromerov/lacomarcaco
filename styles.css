@@ -183,6 +183,44 @@ h1 {
 }
 .faq a { color: var(--green); font-weight: 600; }
 
+/* Guide pages (e.g. /que-es-el-bulk/): plain reading layout, same palette */
+.crumbs {
+  padding-top: 16px;
+  font-size: 13px;
+  color: var(--ink-faint);
+  text-align: center;
+}
+.crumbs a { color: var(--green); }
+.article { padding-block: 16px 8px; }
+.article h1 {
+  font-size: clamp(32px, 8.5vw, 48px);
+  line-height: 1.1;
+  margin: 0 0 14px;
+  text-align: center;
+}
+.article h2 {
+  font-size: clamp(22px, 5.6vw, 26px);
+  line-height: 1.15;
+  margin: 28px 0 8px;
+}
+.article p, .article li { font-size: 16px; color: var(--ink-soft); }
+.article p { margin: 0 0 12px; }
+.article ul { margin: 0 0 12px; padding-left: 20px; }
+.article li { margin-bottom: 6px; }
+.article li strong { color: var(--ink); }
+.article .lead { font-size: 18px; color: var(--ink); }
+.article .steps { margin: 4px 0 16px; }
+.article .steps p { font-size: 14px; margin: 0; }
+.cta {
+  margin: 28px 0 8px;
+  padding: 24px 12px;
+  background: var(--card);
+  border: 1px solid var(--rule);
+  border-radius: 16px;
+  text-align: center;
+}
+.cta h2 { margin-top: 0; }
+
 /* TCG Fans store */
 .shop {
   margin: 28px 0 8px;
