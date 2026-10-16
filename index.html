@@ -3,8 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <title>Compro bulk de Magic en Buenos Aires, Argentina | La Comarca</title>
-  <meta name="description" content="Compramos bulk de Magic: The Gathering en Buenos Aires y Argentina: commons, uncommons, colecciones y singles de MTG. Mandanos fotos por WhatsApp y te cotizamos.">
+  <title>Compro bulk de Magic (MTG) en Buenos Aires | La Comarca MTG</title>
+  <meta name="description" content="¿Querés vender tus cartas de Magic? Compramos bulk de MTG en Buenos Aires: commons, uncommons, colecciones y singles. Mandanos fotos por WhatsApp.">
+  <meta name="robots" content="index, follow, max-image-preview:large">
   <link rel="canonical" href="https://la-comarca.co/">
   <meta name="theme-color" content="#faf3eb">
 
@@ -22,6 +23,7 @@
   <meta property="og:image" content="https://la-comarca.co/og-image.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Logo de La Comarca">
   <meta name="twitter:card" content="summary_large_image">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -32,36 +34,58 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "LocalBusiness",
-    "name": "La Comarca",
-    "url": "https://la-comarca.co/",
-    "logo": "https://la-comarca.co/icon-512.png",
-    "image": "https://la-comarca.co/og-image.png",
-    "description": "Compra de bulk de Magic: The Gathering (MTG) en Buenos Aires, Argentina: commons, uncommons, colecciones y singles.",
-    "slogan": "Compramos tu bulk de Magic",
-    "sameAs": ["https://tcg.fans/mtg/profile/lacomarcaco/products"],
-    "areaServed": [
-      { "@type": "City", "name": "Buenos Aires" },
-      { "@type": "Country", "name": "Argentina" }
-    ],
-    "knowsAbout": ["Magic: The Gathering", "MTG bulk", "cartas de Magic", "colecciones de Magic"]
-  }
-  </script>
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    "name": "La Comarca",
-    "alternateName": "La Comarca MTG",
-    "url": "https://la-comarca.co/",
-    "inLanguage": "es-AR"
+    "@graph": [
+      {
+        "@type": "LocalBusiness",
+        "@id": "https://la-comarca.co/#business",
+        "name": "La Comarca",
+        "alternateName": ["La Comarca MTG", "La Comarca Co", "La Comarca Magic"],
+        "url": "https://la-comarca.co/",
+        "logo": "https://la-comarca.co/icon-512.png",
+        "image": "https://la-comarca.co/og-image.png",
+        "description": "Compra de bulk de Magic: The Gathering (MTG) en Buenos Aires, Argentina: commons, uncommons, colecciones y singles.",
+        "slogan": "Compramos tu bulk de Magic",
+        "telephone": "+54 9 11 6682-5140",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Ciudad Autónoma de Buenos Aires",
+          "addressRegion": "CABA",
+          "addressCountry": "AR"
+        },
+        "areaServed": [
+          { "@type": "City", "name": "Buenos Aires" },
+          { "@type": "Country", "name": "Argentina" }
+        ],
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "contactType": "customer service",
+          "telephone": "+54 9 11 6682-5140",
+          "url": "https://wa.me/5491166825140",
+          "availableLanguage": "es"
+        },
+        "sameAs": [
+          "https://tcg.fans/mtg/profile/lacomarcaco/products",
+          "https://www.instagram.com/lacomarcaco/"
+        ],
+        "knowsAbout": ["Magic: The Gathering", "MTG bulk", "cartas de Magic", "colecciones de Magic"]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://la-comarca.co/#website",
+        "name": "La Comarca",
+        "alternateName": ["La Comarca MTG", "La Comarca Co"],
+        "url": "https://la-comarca.co/",
+        "inLanguage": "es-AR",
+        "publisher": { "@id": "https://la-comarca.co/#business" }
+      }
+    ]
   }
   </script>
 </head>
 <body>
   <header class="topbar">
     <a class="brand" href="/">
-      <img src="/assets/logo.png" width="600" height="233" alt="La Comarca">
+      <img src="/assets/logo.png" width="600" height="232" alt="La Comarca">
     </a>
   </header>
 
@@ -109,6 +133,7 @@
 
     <footer class="foot">
       <p>La Comarca compra bulk de Magic: The Gathering (MTG) en Buenos Aires y Argentina: commons, uncommons, rares de bajo valor, colecciones completas y singles.</p>
+      <p>WhatsApp: <a class="wa-link" href="https://wa.me/5491166825140">+54 9 11 6682-5140</a> · Instagram: <a href="https://www.instagram.com/lacomarcaco/" target="_blank" rel="noopener">@lacomarcaco</a></p>
       <p>Tienda online: <a href="https://tcg.fans/mtg/profile/lacomarcaco/products" target="_blank" rel="noopener">La Comarca en TCG Fans</a>.</p>
       <p>Magic: The Gathering es marca de Wizards of the Coast; no estamos afiliados.</p>
     </footer>
